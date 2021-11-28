@@ -21,8 +21,11 @@ npm install
 ```
 
 # How to run
-- **npm start** – This will start the express server and will listen on port 7777
-- **npm test** – Runs a series of test to check the api and server functionality. Tests include authentication and wrong parameters scenarios.
+- **.env file** - Add credentials inside the environment file namely TOKEN, SUBDOMAIN NAME and EMAIL ADDRESS. 
+
+  **Run Command**
+- ```npm start``` – This will start the express server and will listen on port 7777
+- ```npm test``` – Runs a series of test to check the api and server functionality. Tests include authentication and wrong parameters scenarios.
 
 # Project Structure Overview
 - index.js – Entry point
