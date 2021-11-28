@@ -26,6 +26,10 @@ describe('Server Testing', () => {
         await supertest(server).get("/get_tickets_per_page?page=1&page_size=5").expect(200)
     });
 
+    test("GET /get_all_tickets", async () => {
+        await supertest(server).get("/get_all_tickets").expect(200)
+    });
+
     test("Wrong parameters - GET /get_tickets_per_page", async () => {
         await supertest(server).get("/get_tickets_per_page?page=-1&page_size=5").expect(400)
     });
