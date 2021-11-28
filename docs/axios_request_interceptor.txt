@@ -1,0 +1,16 @@
+const instance = axios.create({
+    baseURL: `https://${subdomain}.zendesk.com/api/v2`
+});
+
+// =======================================================
+// Should be used for incepting requests and responses for debugging purposes
+
+instance.interceptors.request.use(request => {
+    console.log('Starting Request', JSON.stringify(request, null, 2))
+    return request
+})
+  
+instance.interceptors.response.use(response => {
+    console.log('Response:', JSON.stringify(response.data, null, 2))
+    return response.data
+})
