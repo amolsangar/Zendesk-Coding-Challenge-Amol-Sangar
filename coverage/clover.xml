@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1638130969818" clover="3.2.0">
+  <project timestamp="1638130969818" name="All files">
+    <metrics statements="56" coveredstatements="50" conditionals="11" coveredconditionals="6" methods="16" coveredmethods="12" elements="83" coveredelements="68" complexity="0" loc="56" ncloc="56" packages="1" files="2" classes="2"/>
+    <file name="ZendeskApiHandler.js" path="C:\Users\AMOL\Desktop\Zendesk Coding Challenge\scripts\ZendeskApiHandler.js">
+      <metrics statements="22" coveredstatements="20" conditionals="7" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="17" count="5" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+      <line num="30" count="5" type="stmt"/>
+      <line num="37" count="6" type="stmt"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="55" count="8" type="stmt"/>
+      <line num="56" count="8" type="stmt"/>
+      <line num="57" count="5" type="stmt"/>
+      <line num="59" count="5" type="stmt"/>
+      <line num="63" count="3" type="stmt"/>
+      <line num="64" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="65" count="3" type="cond" truecount="2" falsecount="2"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
+      <line num="71" count="2" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="82" count="2" type="stmt"/>
+    </file>
+    <file name="server.js" path="C:\Users\AMOL\Desktop\Zendesk Coding Challenge\scripts\server.js">
+      <metrics statements="34" coveredstatements="30" conditionals="4" coveredconditionals="2" methods="11" coveredmethods="7"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="43" count="2" type="stmt"/>
+      <line num="44" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="45" count="2" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="49" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="50" count="2" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="70" count="0" type="stmt"/>
+      <line num="78" count="1" type="stmt"/>
+      <line num="79" count="1" type="stmt"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="83" count="0" type="stmt"/>
+      <line num="90" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
