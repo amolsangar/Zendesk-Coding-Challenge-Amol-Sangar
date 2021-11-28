@@ -7,7 +7,7 @@ Zendesk Ticket Viewer
 
 <img src="images/3.jpg">
 
-# Prerequisites –
+# Prerequisites
 - npm
 - nodejs
 
